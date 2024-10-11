@@ -25,5 +25,18 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "League Spartan", sans-serif;
+}
+
+.container{
+  display: inline-block;
+}
+
+.start{
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle{
+  margin: 0;
 }
