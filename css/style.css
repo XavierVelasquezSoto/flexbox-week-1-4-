@@ -104,6 +104,7 @@ body {
 .container-pack{
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
 
 .two{
@@ -210,4 +211,49 @@ body {
   color: #fff;
   margin: 0;
   
+}
+
+.purple-2{
+  background-color: #512051;
+  width: 327px;
+  height: 248px;
+  border-radius: 8px;
+  margin-top: 49px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 17px;
+
+}
+.photo-text-2{
+  display: flex;
+  padding-top: 40px;
+  padding-left: 32px;
+  
+}
+
+.name-verified-2{
+  margin-left: 23px;
+}
+
+.purple-3{
+  background-color: #512051;
+  width: 327px;
+  height: 248px;
+  border-radius: 8px;
+  margin-top: 49px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 17px;
+
+}
+
+.photo-text-3{
+  display: flex;
+  padding-top: 40px;
+  padding-left: 32px;
+  
+}
+
+.name-verified-3{
+  margin-left: 23px;
 }
