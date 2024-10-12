@@ -29,29 +29,37 @@ body {
   background-color: #fff;
 }
 
+
 .star{
   width: 16px;
   height: 15px;
 }
 
 .container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 375px;
   height: 1530px;
   margin: 82px 24px 99px 24px;
 }
 
+@media screen and (width>768){
+  .container{
+    width: 1440px;
+    height: 800px;
+    
+  }
+}
+
+
 .header{
-  display:flex;
-  justify-content: center;
-  align-items: center;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 39px;
   width: 327px;
   height: 219px;
 }
-
-
 
 
 .title{
@@ -78,6 +86,7 @@ body {
   text-align: center;
   color: #512051;
   font-size: 17px;
+  margin-bottom: 0;
 }
 
 .three-pack{
@@ -104,7 +113,6 @@ body {
 .container-pack{
   display: flex;
   justify-content: center;
-  margin-top: 16px;
 }
 
 .two{
@@ -140,9 +148,6 @@ body {
   justify-content: center;
 }
 
-.three-purpe{
-
-}
 
 .purple-1{
   background-color: #512051;
@@ -218,7 +223,7 @@ body {
   width: 327px;
   height: 248px;
   border-radius: 8px;
-  margin-top: 49px;
+  margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
   font-size: 17px;
@@ -240,7 +245,7 @@ body {
   width: 327px;
   height: 248px;
   border-radius: 8px;
-  margin-top: 49px;
+  margin-top: 16px;
   margin-right: auto;
   margin-left: auto;
   font-size: 17px;
