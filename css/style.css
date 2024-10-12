@@ -159,7 +159,6 @@ body {
   display: flex;
   padding-top: 40px;
   padding-left: 32px;
-  margin-right: 133px;
   
 }
 
@@ -173,6 +172,7 @@ body {
 
 .name-verified-1{
   display: flex;
+  flex-direction: column;
   margin-left: 23px;
   width: 99px;
   height: 36px;
@@ -186,12 +186,28 @@ body {
 
 }
 
-.text-color{
+.buyer{
+  margin: 0;
   color: #EE69A4;
+  margin-top: 4px;
+  font-weight: 400;
+}
 
+
+.text-purple-div{
+  
+  margin: 0;
+  font-weight: 500;
+  width: 263px;
+  height: 110px;
+  line-height: 22px;
+  margin-top: 23px;
+  margin-left: 32px;
+  letter-spacing: -0.3px;
 }
 
 .text-purple{
+  color: #fff;
   margin: 0;
-
+  
 }
