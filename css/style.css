@@ -46,6 +46,38 @@ body {
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 39px;
+  width: 327px;
+  height: 219px;
+}
+
+
+
+
+.title{
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: #512051;
+  line-height: 32px;
+  margin-bottom: 17px;
+}
+
+.text{
+  margin: 0;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 39px;
+}
+
+
+.subtitle{
+  text-align: center;
+  color: #512051;
+  font-size: 17px;
 }
 
 .three-pack{
@@ -56,7 +88,8 @@ body {
   box-shadow: 0 4 4 hsl(0, 0%, 0%/0.25);
 }
 
-.first{
+
+.one{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,29 +106,7 @@ body {
   justify-content: center;
 }
 
-.title{
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  color: #512051;
-  line-height: 32px;
-}
-
-.text{
-  font-size: 19px;
-  font-weight: 400;
-  text-align: center;
-  line-height: 25px;
-}
-
-
-.subtitle{
-  text-align: center;
-  color: #512051;
-  font-size: 17px;
-}
-
-.second{
+.two{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,4 +137,61 @@ body {
 .container-pack-3{
   display: flex;
   justify-content: center;
+}
+
+.three-purpe{
+
+}
+
+.purple-1{
+  background-color: #512051;
+  width: 327px;
+  height: 248px;
+  border-radius: 8px;
+  margin-top: 49px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 17px;
+
+}
+
+.photo-text-1{
+  display: flex;
+  padding-top: 40px;
+  padding-left: 32px;
+  margin-right: 133px;
+  
+}
+
+.photo{
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+   
+
+}
+
+.name-verified-1{
+  display: flex;
+  margin-left: 23px;
+  width: 99px;
+  height: 36px;
+
+}
+
+.colton{
+  margin: 0;
+  font-weight: 700;
+  color: #fff;
+
+}
+
+.text-color{
+  color: #EE69A4;
+
+}
+
+.text-purple{
+  margin: 0;
+
 }
