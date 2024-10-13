@@ -36,7 +36,6 @@ body {
 }
 
 .container{
-  position: relative;
   display: flex;
   flex-direction: column;
   width: 375px;
@@ -44,16 +43,20 @@ body {
   margin: 82px 24px 99px 24px;
 }
 
-@media screen and (width>768){
+@media screen and (width>768px){
   .container{
     width: 1440px;
     height: 800px;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
 
 
-.header{
+.top{
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 39px;
@@ -161,6 +164,8 @@ body {
 
 }
 
+
+
 .photo-text-1{
   display: flex;
   padding-top: 40px;
@@ -261,4 +266,75 @@ body {
 
 .name-verified-3{
   margin-left: 23px;
+}
+
+@media screen and (width>768px){
+  .top{
+    margin: 0;
+    width: 445px;
+    height: 245px;
+  }
+  .title{
+    font-size: 56px;
+    text-align: left;
+  }
+  .text{
+    font-size: 19px;
+    text-align: left;
+  }
+
+}
+
+@media screen and (width>768){
+  .three-pack{
+    width: 540px;
+    height: 200px;
+  }
+}
+
+
+
+@media screen and (width>768px){
+  .one{
+    width: 445px;
+    height: 56px;
+  }
+}
+
+@media screen and (width>768px){
+  .two{
+    width: 445px;
+    height: 56px;
+  }
+}
+
+@media screen and (width>768px){
+  .three{
+    width: 445px;
+    height: 56px;
+  }
+}
+
+
+
+@media screen and (width>768px){
+  .purple-1{
+  margin-left: 165px;
+  margin-right: 30px;
+  margin-top: 71px;
+  }
+}
+
+@media screen and (width>768px){
+  .purple-2{
+    margin-top: 87px;
+  margin-right: 30px;
+  }
+}
+
+@media screen and (width>768px){
+  .purple-3{
+    margin-top: 103px;
+
+  }
 }
